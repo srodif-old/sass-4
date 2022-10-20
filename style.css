@@ -1,0 +1,59 @@
+.exercise, article:only-child, article:nth-child(3), article:nth-child(1), article, h2 {
+  border: 0.00390625rem solid red;
+}
+.exercise-title, h2 {
+  color: green;
+  text-decoration: underline;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  color: red;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:nth-child(1) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:nth-child(3) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:only-child {
+  color: green;
+  border-color: blue;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
